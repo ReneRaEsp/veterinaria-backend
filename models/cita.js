@@ -7,7 +7,7 @@ const citaSchema = new Schema({
     propietario: {type: String, maxlength:50},
     telefono: {type: String, maxlength:15},
     fecha: {type: Date},
-    hora: {type: Date},
+    hora: {type: String, maxlength:10},
     descripcion: {type: String, maxlength: 70}
 
 });
